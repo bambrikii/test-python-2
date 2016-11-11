@@ -1,5 +1,5 @@
-import heapq
 import functools
+import heapq
 import pprint
 
 heap = []
@@ -12,8 +12,8 @@ heapq.heappush(heap, 145)
 heapq.heappush(heap, 16)
 heapq.heappush(heap, 11)
 
-pprint.pprint(heap, width = 40)
-print heapq.nsmallest(10,heap)
+pprint.pprint(heap, width=40)
+print heapq.nsmallest(10, heap)
 
 heap2 = []
 push2 = functools.partial(heapq.heappush, heap2)

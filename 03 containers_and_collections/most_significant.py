@@ -1,7 +1,8 @@
 def most_significant(val):
-    while val>=10:
-	val //= 10
+    while val >= 10:
+        val //= 10
     return val
+
 
 print most_significant(123)
 print most_significant(9876543210)

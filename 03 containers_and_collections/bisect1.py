@@ -19,5 +19,5 @@ bisect.insort(l2, 11)
 bisect.insort(l2, 1)
 print l2
 
-l2i =bisect.bisect_left(l2, 11)
+l2i = bisect.bisect_left(l2, 11)
 print "l2 [ %s ] = %s" % (l2i, l2[l2i])

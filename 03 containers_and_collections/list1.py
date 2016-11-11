@@ -1,9 +1,11 @@
 def print_list(l):
     for i in l:
-	print i
+        print i
+
 
 def print_cut():
     print "-----------------"
+
 
 arr = list()
 arr.append(1)
@@ -29,9 +31,8 @@ print_list(str1)
 for s in str1:
     print s
 
-
 print_list(range(len(str1)))
-#for i in range(len(str1)):
+# for i in range(len(str1)):
 #    print " % - % " % i, str1[i]
 
 print_cut()

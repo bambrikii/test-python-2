@@ -8,7 +8,6 @@ print "initial ", q1
 q1.popleft()
 print "popleft ", q1
 
-
 q1.pop()
 print "pop     ", q1
 q1.pop()

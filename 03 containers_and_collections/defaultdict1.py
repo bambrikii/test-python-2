@@ -7,10 +7,10 @@ dict1 = dict()
 dict1[1] = "123"
 dict1[3] = "456"
 
-arr1=[]
+arr1 = []
 
 dict2 = collections.defaultdict(list)
-for k,v in dict1.items():
+for k, v in dict1.items():
     dict2[k].append(v)
 
 dict2[1].append("789")
@@ -27,8 +27,10 @@ pprint.pprint(counter)
 
 print "--- tree, tree defaultdict"
 
+
 def tree():
     return collections.defaultdict(tree)
+
 
 colours = tree()
 

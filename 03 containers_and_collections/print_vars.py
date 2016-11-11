@@ -1,11 +1,9 @@
+# import builtins
 
-#import builtins
-import collections
-
-#__package__ = "package1"
-#__name__ = "name1"
-#__doc__ = "doc1"
-#__file__ = "file1"
+# __package__ = "package1"
+# __name__ = "name1"
+# __doc__ = "doc1"
+# __file__ = "file1"
 
 def __main__():
     print "print from main..."
@@ -14,6 +12,6 @@ def __main__():
 print "locals : %s" % locals()
 print "globals : %s " % globals()
 
-#__main__()
+# __main__()
 
-#print "builtin vars : ", vars(builtins)
+# print "builtin vars : ", vars(builtins)

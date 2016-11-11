@@ -1,26 +1,30 @@
 def ind(val):
     while val >= 10:
-	val //= 10;
+        val //= 10;
     return val;
+
 
 def add(coll, key, value):
     index = ind(key)
     coll[index].append((key, value))
 
+
 def contains(coll, key):
     index = ind(key)
     for k, v in coll[index]:
-	if k == key:
-	    return True
+        if k == key:
+            return True
     return False
+
 
 def print_coll(coll):
     for index in range(len(coll)):
-	print " index : ", index
-	for k, v in coll[index]:
-	    print " k, v : ", k, v
+        print " index : ", index
+        for k, v in coll[index]:
+            print " k, v : ", k, v
 
-#coll = [[] ] * 10
+
+# coll = [[] ] * 10
 coll = [[], [], [], [], [], [], [], [], [], []]
 print coll
 
